@@ -17,3 +17,11 @@ function addQuestion(question) {
     question,
   };
 }
+
+export function addNewQuestion(question) {
+  return async (dispatch) => {
+    const question_1 = await _saveQuestion(question);
+    dispatch(addQuestion(question_1));
+    dispatch(addQuestionToUser(question_1));
+  };
+}
