@@ -5,9 +5,96 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  text-align: center;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.div-login {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 70%;
+}
+
+.img-polls {
+  width: 50%;
+}
+
+.pg-title {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 30%;
+}
+
+.avatar-img {
+  width: 8%;
+}
+
+.db-col {
+  border-radius: 5px;
+  border: solid 2px;
+}
+
+.db-pen {
+  border-color: coral;
+}
+
+.db-ans {
+  border-color: lightgreen;
+}
+
+.db-col-title {
+  border-radius: 5px;
+  border: solid 2px none;
+}
+
+.db-col-title-ans {
+  background-color: lightgreen;
+}
+
+.db-col-title-pen {
+  background-color: coral;
+}
+
+.db-question {
+  display: inline-block;
+  height: 9em;
+  width: 12em;
+  border-radius: 5px;
+  border: solid 2px gray;
+}
+
+.db-info {
+  display: inline;
+}
+
+.spc-mrg {
+  padding: 1%;
+  margin: 1%;
+}
+
+.td-question {
+  text-align: left;
+}
+
+.lb-td-users {
+  text-align: left;
+}
+
+.lb-table {
+  width: 70%;
+}
+
+.lb-avatar-img {
+  width: 20%;
+}
+
+.p404-title {
+  background-color: red;
+  color: white;
 }
